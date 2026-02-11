@@ -103,7 +103,7 @@ We will call this final state array . For each query, we just have to get the va
 
 ** Logic Explanation:
    Instead of rotating the array repeatedly, we compute where each element will land after all rotations using modular arithmetic,
-   build the rotated array once, and answer each query in constant time.
+   build the rotated array once, and answer each query in constant time .
 */
 
 let rotats = k%a.length;
